@@ -1,0 +1,42 @@
+n this  blog we will see Difference between HTTP1.1 vs HTTP2
+
+
+What is http
+     HTTP - Hyper text transfer protocol
+     It is used for client to server communication
+     using HTTP user sends the request to  server &  server sends the response to the user like a responsive cycle.
+
+http 1.1
+     The first usable version of HTTP was created in 1997 It works on the text format.
+     There is head of line blocking that blocks all the requests behind it until it doesn’t get its all resources.
+     It use requests resource Inline for use getting multiple pages compresses data itself. 
+     transfer all the requests & responses in the text message form.
+     all the information related to the header file is repeated in every request.
+
+
+ Http2 
+     it created in 2015.
+     Htttp 1.1 works text format but http2 works on the binary framing layer instead of text that converts all the messages in binary format.
+     HTTP/2 uses hpack which is used to split data from header. 
+     it compresses the header The server sends all the other files like CSS & JS without the request of the client using the push frame.
+     It allow multiplexing so one TCP connection is required for multiple requests.
+
+
+Object and it Internal Representation in java script
+
+         In this blog we will see Object and it internal representation in java script .
+         Object is non-primitive data time
+         It have key value pairs
+         Eg)
+         Var obj {
+                Name: "murugappan",
+                Batch:" B44"
+           }
+           Access the value call by key
+           Access murugappan using   obj.Name
+           Syt: object name. Key name
+          
+           It holds many key value pairs inside object.
+           Variables that are assigned a reference value are given a reference .
+           That reference  points to the location in memory where the object is stored. The variables don’t actually store the value.
+            An object property name can be any valid JavaScript string, or anything that can be converted to a string, including the empty string.
